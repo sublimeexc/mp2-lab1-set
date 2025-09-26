@@ -1,9 +1,11 @@
-#include "tbitfield.h"
-#include <cmath>
+// ННГУ, ВМК, Курс "Методы программирования-2", С++, ООП
+//
+// tbitfield.cpp - Copyright (c) Гергель В.П. 07.05.2001
+//   Переработано для Microsoft Visual Studio 2008 Сысоевым А.В. (19.04.2015)
+//
+// Битовое поле
 
-// Fake variables used as placeholders in tests
-static const int FAKE_INT = -1;
-static TBitField FAKE_BITFIELD(1);
+#include "tbitfield.h"
 
 TBitField::TBitField(int len)
 {
